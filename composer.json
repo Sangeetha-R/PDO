@@ -1,7 +1,7 @@
 {
-    "name": "SangeethaR/PDO",
+    "name": "sangeethar/pdo",
     "description": "PDO database library for Slim Framework",
-    "version": "v0.0.1",
+    "version": "v0.0.2",
     "type": "library",
     "keywords": ["pdo", "database", "slim", "framework"],
     "license": "MIT",
@@ -11,7 +11,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Sangeetha-R\\PDO\\": "src/PDO/"
+            "sangeethar\\PDO\\": "src/PDO/"
         }
     }
 }
