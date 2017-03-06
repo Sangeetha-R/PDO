@@ -225,7 +225,6 @@ class WhereClause extends ClauseContainer
 
         foreach ($this->container as $where) {
             $args[] = $where;
-            error_log($where . ' ' . 'foreach', 0);
         }
 
         return ' WHERE '.preg_replace("/^\sAND/", "", implode('', $args));
